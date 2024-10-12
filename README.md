@@ -67,6 +67,7 @@ huginn-ai/
 ├── main.py                 # Code principal de l'application
 ├── README.md               # Ce fichier
 ├── requirements.txt        # Liste des dépendances Python
+├── icon.png                # Logo
 └── base_de_donnees/        # Répertoire contenant les visages de référence
 ```
 

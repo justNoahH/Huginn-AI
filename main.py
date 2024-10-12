@@ -58,9 +58,6 @@ class App:
                                      border_width=2)
         self.web.pack(expand=True, padx=30, anchor="n")
 
-        #self.db_choice = CTkComboBox(master=self.gui, values=["Polytech", "Célébrités", "Web"])
-        #self.db_choice.pack(pady=10, anchor="s")
-
         self.celeb = CTkCheckBox(master=self.gui_db, text="Célébrités")
         self.celeb.pack(expand=True, pady=5, padx=5, anchor="s")
         self.polytech = CTkCheckBox(master=self.gui_db, text="Polytech")
@@ -95,13 +92,14 @@ class App:
         self.known_face_encodings, self.known_face_names = self.load_face_encodings(r"répertoire")
 
     def load_face_encodings(self, directory):
-        if self.celeb.get()==1 and self.polytech.get()==1:
-            directory = r"répertoire"
-        elif self.celeb.get()==1:
-            directory = r"répertoire"
-        elif self.polytech.get()==1:
-            directory = r"répertoire"
-
+        #if self.celeb.get()==1 and self.polytech.get()==1:
+        #    directory = r"répertoire"
+        #elif self.celeb.get()==1:
+        #    directory = r"répertoire"
+        #elif self.polytech.get()==1:
+        #    directory = r"répertoire"
+        directory = "base_de_donnees"
+        
         encodings = []
         names = []
         for filename in os.listdir(directory):

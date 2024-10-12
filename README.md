@@ -2,7 +2,7 @@
 
 ### Créé par Noah Herbelin-Alves
 
-![Logo](path/to/logo.png)
+<img src="icon.png" alt="Huginn AI Logo" width="300"/>
 
 ## Description
 

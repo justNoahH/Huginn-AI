@@ -53,7 +53,7 @@ python main.py
 
 ## Utilisation
 
-1. **Configurer le programme** : Choisir son périphérique vidéo et la base de données à comparer.
+1. **Configurer le programme** : Choisir son périphérique vidéo et remplir base de données à comparer.
 2. **Lancer le programme** : Cliquez sur "Démarrer" pour lancer la reconnaissance faciale en temps réel.
 3. **Arrêter la reconnaissance** : Cliquez sur "Arrêter" pour interrompre le flux vidéo.
 4. **Recherche de visage en ligne** : Cette fonctionnalité est en cours de développement.
@@ -73,9 +73,10 @@ huginn-ai/
 
 ## Personnalisation
 ### Thèmes
-L'application supporte les thèmes "Clair", "Sombre" et "Système". Vous pouvez changer de thème depuis le menu.
+L'application supporte les thèmes "Clair", "Sombre" et "Système". Vous pouvez changer de thème depuis le menu **Paramètres**.
 
 ### Base de Données
+**Warning** : Sur l'interface graphique s'affichent deux choix de bases de données, qui correspondent à mes cas de tests. Ne pas les prendre en compte, le code correspondant est mis en commentaire.\
 Ajoutez des images au répertoire base_de_donnees/ pour qu'elles soient automatiquement incluses dans la base de données de visages connus. Les images doivent être au format .jpg ou .png.
 
 ## Dépendances et Limitations
